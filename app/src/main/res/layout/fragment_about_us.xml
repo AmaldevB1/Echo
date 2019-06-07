@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:clickable="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#ffffff">
+
+    <ImageView android:layout_width="200dp"
+               android:src="@drawable/joey"
+               android:id="@+id/joeyPic"
+               android:layout_height="200dp"
+               android:layout_centerHorizontal="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginTop="71dp"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/joeyPic"
+              android:id="@+id/T1"
+              android:padding="11dp"
+              android:textColor="#212121"
+              android:layout_centerHorizontal="true"
+              android:textAlignment="center"
+              android:text="This app is made by Amaldev as part of Internshaala's Online Android Training Project."
+
+    />
+    <TextView android:layout_width="wrap_content"
+              android:text="App Version 1.0"
+              android:padding="11dp"
+              android:textColor="#212121"
+              android:layout_below="@+id/T1"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="-8dp"/>
+</RelativeLayout>
